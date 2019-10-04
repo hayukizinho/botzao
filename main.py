@@ -20,14 +20,14 @@ async def on_ready():
 
 @client.event
 async def on_member_join(member):
-    canal = client.get_channel("550864250298564610")
-    regras = client.get_channel("551627572144766978")
+    canal = client.get_channel("629512233361211403")
+    regras = client.get_channel("629527101879615530")
     msg = "Bem vindo ao puteiro, {}, sou o BOT - {}".format(member.mention, client.user.name)
     await client.send_message(canal, msg)
 
 @client.event
 async def on_member_remove(member):
-    canal = client.get_channel("550864250298564610")
+    canal = client.get_channel("629512233361211403")
     msg = "Vá com beijos queridas - {}".format(member.mention)
     await client.send_message(canal, msg)
 
