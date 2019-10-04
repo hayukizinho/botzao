@@ -121,4 +121,4 @@ async def on_message(message):
             await client.send_message(message.channel, "Error: [{error}]".format(error=error))
 
 
-client.run('NjI5NTIxMjgwNDcwODc2MTcw.XZbA0Q.SuvQzaRy-waJA-Gr2euck1GAn84')
+client.run('NjI5NTIxMjgwNDcwODc2MTcw.XZbFFA.fX0T46prVjUzs_kZjX2hS0Sjeak')
